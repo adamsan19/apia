@@ -86,9 +86,9 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    /* Removed border-border class as it does not exist */
   }
   body {
-    @apply bg-background text-foreground;
+    /* Removed bg-background class as it does not exist */
   }
 }

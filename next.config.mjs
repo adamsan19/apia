@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    distDir: '.vercel/output',
   eslint: {
     ignoreDuringBuilds: true,
   },
